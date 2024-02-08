@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("../Images/2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-bar
+{
+    background: rgb(0, 195, 255);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 12ppx;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover{
+    background: #000000;
+    border-radius: px;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(5, 199, 233);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul 
+{
+    display: block;
+    margin: 8px;
+} 
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 109px;
+    padding: 15px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+} 
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+    
+} 
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: #b2ff00;
+}
+h1{
+    color: red;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-bar{
+    width: 76%;
+    padding: 30px;
+    background-color: #fff;
+    color:black;
+    border: #fffb00 3px solid;
+    border-radius: 10px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin:10%;
+    background: rgba(255,255,255,.4);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+    text-align: center;
+    
+}
+.contact-bar ul a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    
+}
+.contact-bar ul a:hover{
+    color: red;
+}
+.contact-bar ul a:active{
+    color: green;
+}
+/*.contact-bar :visited{
+    color: rgb(30, 0, 255);
+}
+*/
+.contact-bar .fa{
+    margin-right: 8px;
+}
+ table{
+    color: #000000;
+    background-color: #43dae8;
+    margin: auto;
+    width: 80%;
+    border: rgb(238, 238, 16) 3px solid;
+    border-collapse: collapse;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 5%;
+}
+table{
+    border: 1px solid #fff;
+}
+th{
+    font-size: 20px;
+    padding: 15px;
+    background-color: crimson;
+    text-align: center;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}
+tr:hover{
+    background-color: #a0a4a7;
+
+}
+.container p{
+    color: brown;
+}
+.box{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height:  400px;
+    width: 1200px;
+    max-width: fit-content;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    z-index: -1;
+}
+.content{
+    width: 1200px;
+    height: 100px;
+    max-width: fit-content;
+    background-color: white;
+    padding: 2% 5%;
+    line-height: 1.5em;
+    font-size: 18px;
+    text-align: justify;
+}
+.container h3{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.table body tr td{
+    text-align: center;
+}    
+.container{
+    padding: 30px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

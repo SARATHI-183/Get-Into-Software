@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-color:aliceblue;
+  background-image: url("../Images/3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #000000;
+}
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=date]{
+  display: inline-block;
+  width: 100%;
+  padding:15px;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus ,input[type=date]{
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+ 
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn {
+  
+  border-radius: 20px;
+  width: 20%;
+  margin-left: 17%;
+}
+.signupbtn{
+  border-radius: 20px;
+  width: 20%;
+  margin-left: 25%;
+}
+
+.container{
+  width: auto;
+  height: auto;
+  /* background: rgba(173, 171, 171, 0.416); */
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 6%;
+  justify-content: space-around;
+  border-radius: 15px;
+  padding: 5% 5% 5% 5% ;
+  background: transparent;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 10px;
+}
+/*
+.container {
+  padding: 100px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: rgb(0,0,0,.3);
+  
+  
+}*/
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 200px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+  
+  
+}
+
+.container label .gen{
+  padding-top: 20px;
+  align-items: flex-start;
+
+
+}
+p a{
+  text-decoration: none;
+}
+
+label{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+#dob{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color:red;
+}
+h6{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+}
